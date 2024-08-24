@@ -12,4 +12,5 @@ RoxygenNote: 7.3.2
 Imports:
   openStuff,
   graphics
-
+URL: https://github.com/brandanrosa/RosaDSA5403lab1
+BugReports: https://github.com/brandanrosa/RosaDSA5403lab1/issues
