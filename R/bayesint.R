@@ -2,7 +2,7 @@
 #'
 #' An interactive app with sliders for the mean and sd values
 #'
-#' @return An interactive plot
+#' @return an interactive plot with labels
 #' @export
 #'
 #' @importFrom shiny runApp

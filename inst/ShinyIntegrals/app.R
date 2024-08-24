@@ -9,9 +9,9 @@ integralBayes <- function(meanval, sdval) {
   x = seq( from = xlow , to = xhigh , by = dx )
   y = ( 1/(sdval*sqrt(2*pi)) ) * exp( -.5 * ((x-meanval)/sdval)^2 )
   #openStuff::openGraph(width=7,height=5)
-  plot( x , y , type="h" , lwd=1 , cex.axis=1.5
-        , xlab="x" , ylab="p(x)" , cex.lab=1.5
-        , main="Normal Probability Density" , cex.main=1.5 )  lines( x , y , lwd=3 ,  col="darkgreen" )
+  plot( x , y , type="h", lwd=1, cex.axis=1.5, xlab="x", ylab="p(x)",
+        cex.lab=1.5, main="Normal Probability Density" , cex.main=1.5 )
+  lines( x , y , lwd=3 ,  col="darkgreen" )
   area = sum( dx * y )
   text( meanval-sdval , .9*max(y) , bquote( paste(mu ," = " ,.(meanval)) )
         , adj=c(1,.5) , cex=1.5 )

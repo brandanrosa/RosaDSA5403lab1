@@ -7,7 +7,7 @@
 bayesint()
 }
 \value{
-An interactive plot
+an interactive plot with labels
 }
 \description{
 An interactive app with sliders for the mean and sd values
