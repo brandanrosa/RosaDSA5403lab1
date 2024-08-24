@@ -15,3 +15,7 @@ Imports:
   shiny
 URL: https://github.com/brandanrosa/RosaDSA5403lab1
 BugReports: https://github.com/brandanrosa/RosaDSA5403lab1/issues
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
